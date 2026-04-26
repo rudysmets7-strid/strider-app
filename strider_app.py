@@ -27,7 +27,7 @@ system_instruction = load_system_prompt()
 
 # Initialize the Gemini 1.5 Flash model (Fast, free, massive context)
 model = genai.GenerativeModel(
-    model_name="gemini-1.5-flash",
+    model_name="gemini-2.5-flash",
     system_instruction=system_instruction
 )
 
